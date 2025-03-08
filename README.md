@@ -1,7 +1,7 @@
 # Portfolio Website
 
 This is the source code for my portfolio website.
-It will be hosted at my personal domain [pieterjansterkens.com](https://pieterjansterkens.com/). 
+In the future it will be hosted at my personal domain, however this is still a work in progress. 
 This was made in the interest of learning about self-hosting on my Raspberry Pi.
 
 In case this site is down, please contact me at pieterjan.sterkens@gmail.com 
