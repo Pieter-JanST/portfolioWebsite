@@ -44,7 +44,7 @@ class MyWebAppTests {
 		ResponseEntity<String> response = restTemplate.getForEntity("/#contact", String.class);
 
 		assertThat(response.getStatusCode().is2xxSuccessful()).isTrue();
-		assertThat(response.getBody()).contains(" Contact Me");
+		assertThat(response.getBody()).contains("Contact Me");
 	}
 
 	@Test

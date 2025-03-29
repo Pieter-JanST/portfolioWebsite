@@ -48,6 +48,7 @@ public class UserSecurityConfig {
                 .anyRequest().permitAll()
             )
             .httpBasic(Customizer.withDefaults())
+//                .csrf(Customizer.withDefaults());
             .csrf(AbstractHttpConfigurer::disable);
 
         http.formLogin(form ->
